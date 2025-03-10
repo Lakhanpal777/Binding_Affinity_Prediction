@@ -22,3 +22,15 @@ This repository provides a deep learning model to **predict binding affinity** b
 ```sh
 git clone https://github.com/Lakhanpal777/Binding_Affinity_Prediction.git
 cd Binding_Affinity_Prediction
+
+
+2️⃣ **Create a Virtual Environment**
+
+python -m venv env  
+source env/bin/activate  # For Mac/Linux  
+env\Scripts\activate  # For Windows  
+
+3️⃣ Install Dependencies
+
+pip install -r requirements.txt
+ 
