@@ -1,23 +1,24 @@
-# 🔬 Binding Affinity Prediction using Deep Learning  
+# 🔬 **Binding Affinity Prediction using Deep Learning**  
 
-This repository contains a deep learning model built using **TensorFlow/Keras** to predict binding affinity based on structural and molecular features. The model utilizes data from the **PDBBind dataset** and integrates **molecular graphs, ligand coordinates, and molecular descriptors** for feature representation.  
+This repository provides a deep learning model to **predict binding affinity** between proteins and ligands using structural and molecular features. The model integrates **molecular graphs, ligand coordinates, and molecular descriptors** to provide accurate predictions.  
 
 ---
 
-## 📂 **Project Overview**  
+## 📌 **Project Overview**  
+
 - **Dataset Used**: [PDBBind (v2018)](http://www.pdbbind.org.cn/)  
-- **Key Features**:  
-  - **Molecular Graphs** (Graph Neural Network)  
-  - **Molecular Descriptors** (2D Features)  
-  - **Ligand & Pocket Coordinates** (3D Features)  
-  - **Deep Learning Model** (Fully Connected Neural Network)  
+- **Model Type**: Deep Learning (Fully Connected Neural Network)  
+- **Features Used**:  
+  - **Molecular Graphs** 🧬 (Graph Neural Network)  
+  - **Molecular Descriptors** 🧪 (1D & 2D Features)  
+  - **Ligand & Pocket Coordinates** 🔬 (3D Features)  
 - **Goal**: Predict the binding affinity between proteins and ligands.  
 
 ---
 
-## ⚡ **Installation & Dependencies**  
+## 🚀 **Installation & Setup**  
 
 ### 🔹 **1. Clone the Repository**  
 ```sh
-git clone https://github.com/yourusername/binding-affinity-prediction.git
-cd binding-affinity-prediction
+git clone https://github.com/Lakhanpal777/Binding_Affinity_Prediction.git
+cd Binding_Affinity_Prediction
